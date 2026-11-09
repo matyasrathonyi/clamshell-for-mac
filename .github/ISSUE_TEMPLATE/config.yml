@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private support, licenses and refunds
+    url: mailto:hello@clamshell.dev
+    about: Email hello@clamshell.dev. Paste the report from Settings > General > Copy diagnostics for support into the email, not into a public issue.
+  - name: Troubleshooting guide
+    url: https://github.com/matyasrathonyi/clamshell-for-mac/blob/main/docs/troubleshooting.md
+    about: First steps when Clamshell does not do what you expect.
+  - name: Security report
+    url: https://github.com/matyasrathonyi/clamshell-for-mac/blob/main/SECURITY.md
+    about: Please report security issues privately by email, not as an issue.

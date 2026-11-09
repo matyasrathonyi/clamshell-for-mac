@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest a feature or a new module.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the open issues first; a thumbs-up on an existing request helps more than a duplicate. The current list of modules is on https://clamshell.dev/modules.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The job or situation, for example "run an agent overnight and have the Mac sleep when it is done".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you picture it working in Clamshell.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: What do you do today instead?
+  - type: input
+    id: version
+    attributes:
+      label: Clamshell version
+      placeholder: "2.0.0"

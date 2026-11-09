@@ -1,0 +1,31 @@
+name: Question
+description: Ask how to do something with Clamshell.
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The README FAQ, docs/url-commands.md and docs/troubleshooting.md answer the most common questions. For license, purchase, refund or account questions, email hello@clamshell.dev instead; this tracker is public.
+
+        Please do not paste Terminal output, logs, diagnostics or license keys here.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Clamshell version
+      placeholder: "2.0.0"
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Where did you get Clamshell?
+      options:
+        - clamshell.dev
+        - Homebrew
+        - Setapp
+        - Not installed yet
